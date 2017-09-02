@@ -1,6 +1,5 @@
 #1day learn python
 ```pycharm downalod
-hello
 https://www.jetbrains.com/pycharm/
 
 ```
