@@ -1,6 +1,15 @@
 #1day learn python
+```pycharm downalod
 
-```python
+
+
+
+```
+https://www.jetbrains.com/pycharm/
+
+
+
+```python example1
 import turtle as t
 
 t.shape('turtle')
