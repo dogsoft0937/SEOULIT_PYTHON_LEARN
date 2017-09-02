@@ -1,7 +1,6 @@
 #1day learn python
 ```pycharm downalod
-
-
+hello
 
 
 ```
