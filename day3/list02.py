@@ -1,0 +1,8 @@
+first_list=list(range(10))
+print(first_list)
+second_list=list(range(5,12))
+print(second_list)
+third_list=list(range(10,0,-1))
+print(third_list)
+fourth_list=list('hello world')
+print(fourth_list)
