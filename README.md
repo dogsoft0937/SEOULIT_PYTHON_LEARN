@@ -1,4 +1,5 @@
 # SEOULIT_PYTHON_LEARN
 
 1day - 2017.09.02<br/>
-2day - 2017.09.09
+2day - 2017.09.09<br/>
+3day - 2017.09.16
