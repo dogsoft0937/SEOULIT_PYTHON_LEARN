@@ -1,0 +1,43 @@
+cd ..
+cd ..
+d:
+mkdir workspace
+cd workspace
+mkdir django_project
+cd django_project
+python3 -m venv myvenv
+myvenv\Scripts\activate
+pip install django~=1.11.0
+django-admin startproject mysite
+
+
+pycharm으로 돌아와서 file-> open -> d-> workspace -> django_project -> mysite -> OK
+
+
+manage.py
+- 사이트 관리를 도와주는 파이썬 스크립트
+- 개발용 웹 서버 런칭시 해당 스크립트를 사용
+
+
+setting.py
+
+맨아래에 TIME_ZONE UTC를 Asia/Seoul로 변경
+
+STATIC_URL='/static/' 아래에 추가 => STATIC_ROOT=os.path.join(BASE_DIR,'static')
+
+ALLOWED_HOSTS=['127.0.0.1'] <= 빈 공간에 루프백 아이피 추가한다
+
+
+cmd로 돌아가서 D:\workspace\django_project\mysite 에서
+python manage.py migrate
+python manage.py runserver 0.0.0.0:8000
+
+Ctrl+ c
+python manage.py startapp blog
+
+setting.py
+INSTALLED_APPS =[ 에서
+'blog', 추가하기
+
+pycharm에서 file->settings->project:mysite->project Interpreter->폴더를 D:\workspace\django_project\myvenv\Scripts\python.exe
+
