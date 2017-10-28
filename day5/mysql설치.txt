@@ -1,0 +1,3 @@
+
+(myvenv) D:\workspace\django_project\mysite>python manage.py makemigrations blog
+(myvenv) D:\workspace\django_project\mysite>python manage.py migrate blog

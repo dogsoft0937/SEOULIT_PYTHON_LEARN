@@ -1,0 +1,1 @@
+(myvenv) d:\workspace\django_project\mysite>python manage.py createsuperuser
