@@ -1,0 +1,12 @@
+django 설치
+
+cmd 가서 
+
+d:
+cd workspace
+mkdir first_project
+cd first_project
+python3 -m vent myvenv
+myvenv\Scripts\activate.bat
+pip install django~=1.11.0
+django-admin.py startproject mysite
