@@ -1,0 +1,5 @@
+(myvenv)python manage.py makemigrations blog
+
+(myvenv)python manage.py migrate blog
+
+(myvenv)python manage.py createsuperuser
